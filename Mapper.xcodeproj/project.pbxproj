@@ -1,0 +1,146 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXFileReference section */
+		BD2592BB1E2DB88300D2B3B2 /* .git */ = {isa = PBXFileReference; lastKnownFileType = folder; path = .git; sourceTree = "<group>"; };
+		BD2592BC1E2DB88300D2B3B2 /* libstreetmap */ = {isa = PBXFileReference; lastKnownFileType = folder; path = libstreetmap; sourceTree = "<group>"; };
+		BD2592BD1E2DB88300D2B3B2 /* libstreetsdatabase */ = {isa = PBXFileReference; lastKnownFileType = folder; path = libstreetsdatabase; sourceTree = "<group>"; };
+		BD2592BE1E2DB88300D2B3B2 /* main */ = {isa = PBXFileReference; lastKnownFileType = folder; path = main; sourceTree = "<group>"; };
+		BD2592BF1E2DB88300D2B3B2 /* Makefile */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
+		BD2592C01E2DB88300D2B3B2 /* nbproject */ = {isa = PBXFileReference; lastKnownFileType = folder; path = nbproject; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		BD2592B51E2DB88300D2B3B2 = {
+			isa = PBXGroup;
+			children = (
+				BD2592BB1E2DB88300D2B3B2 /* .git */,
+				BD2592BC1E2DB88300D2B3B2 /* libstreetmap */,
+				BD2592BD1E2DB88300D2B3B2 /* libstreetsdatabase */,
+				BD2592BE1E2DB88300D2B3B2 /* main */,
+				BD2592BF1E2DB88300D2B3B2 /* Makefile */,
+				BD2592C01E2DB88300D2B3B2 /* nbproject */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXLegacyTarget section */
+		BD2592BA1E2DB88300D2B3B2 /* Mapper */ = {
+			isa = PBXLegacyTarget;
+			buildArgumentsString = "$(ACTION)";
+			buildConfigurationList = BD2592C11E2DB88300D2B3B2 /* Build configuration list for PBXLegacyTarget "Mapper" */;
+			buildPhases = (
+			);
+			buildToolPath = /usr/bin/make;
+			buildWorkingDirectory = /Users/chriszhang/Desktop/Mapper;
+			dependencies = (
+			);
+			name = Mapper;
+			passBuildSettingsInEnvironment = 1;
+			productName = Mapper;
+		};
+/* End PBXLegacyTarget section */
+
+/* Begin PBXProject section */
+		BD2592B61E2DB88300D2B3B2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+			};
+			buildConfigurationList = BD2592B91E2DB88300D2B3B2 /* Build configuration list for PBXProject "Mapper" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = BD2592B51E2DB88300D2B3B2;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BD2592BA1E2DB88300D2B3B2 /* Mapper */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin XCBuildConfiguration section */
+		BD2592B71E2DB88300D2B3B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx10.6;
+			};
+			name = Debug;
+		};
+		BD2592B81E2DB88300D2B3B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				SDKROOT = macosx10.6;
+			};
+			name = Release;
+		};
+		BD2592C21E2DB88300D2B3B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				DEBUGGING_SYMBOLS = YES;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = Mapper;
+			};
+			name = Debug;
+		};
+		BD2592C31E2DB88300D2B3B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = Mapper;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BD2592B91E2DB88300D2B3B2 /* Build configuration list for PBXProject "Mapper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD2592B71E2DB88300D2B3B2 /* Debug */,
+				BD2592B81E2DB88300D2B3B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BD2592C11E2DB88300D2B3B2 /* Build configuration list for PBXLegacyTarget "Mapper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD2592C21E2DB88300D2B3B2 /* Debug */,
+				BD2592C31E2DB88300D2B3B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BD2592B61E2DB88300D2B3B2 /* Project object */;
+}
